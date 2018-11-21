@@ -17,7 +17,7 @@
 </head>
 <body>
 
-      <% include gestionAplicaciones.ejs %> 
+      
 
       <div id="main-header" class="row">
         <div class="col-sm-2" >
@@ -29,7 +29,8 @@
             <h3 id="title-portal-1">Portal de Estudiantes</h3>
             <h4 id="title-portal-2"> <a id ="etsit" href="http://www.etsit.upm.es/">Escuela Técnica Superior de Ingenieros de Telecomunicaciones</a> de la <a id="upm" href="http://www.upm.es/"> Universidad Politécnica de Madrid</a> </h4>
         </div>
-        <div class="col-sm-1">
+        <div id ="gestionAplicaciones"class="col-sm-1">
+        <% include gestionAplicaciones.ejs %> 
         </div>
       </div>
 

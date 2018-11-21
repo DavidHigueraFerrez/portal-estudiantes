@@ -9,7 +9,7 @@ let a =
 '    z-index: 1;'+
 '    top: 0;'+
 '    right: 0;'+
-'    background-color: #4664A2;'+
+'    background-color: #A5FFEC;'+
 '    overflow-x: hidden;'+
 '    transition: 0.5s;'+
 '    padding-top: 60px;'+

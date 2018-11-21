@@ -32,6 +32,9 @@ app.use('/users', usersRouter);
 app.get(contextPath + "static-button-inter", (req, res) => {
   res.sendFile('./button-static-inter.js', {root: __dirname});
 });
+app.get(contextPath + "static-button-intercontacta", (req, res) => {
+  res.sendFile('./button-static-intercontacta.js', {root: __dirname});
+});
 app.get(contextPath +"static-button-html", (req, res) => {
   res.sendFile('./button-static.html', {root: __dirname});
 });
