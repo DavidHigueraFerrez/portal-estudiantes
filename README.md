@@ -18,6 +18,11 @@ A nivel de /portal-estudiantes estan disponibles los ficheros javascript que sir
 
 #### Ficheros button-static-[aplicacion].js
 Los ficheros javascript que siguen este nombre son los menus laterales preparados para las aplicaciones configurados para el CSS de cada aplicacion. 
+
+### Actualmente disponibles
+menu lateral para aplicacion de contacto internacional en https://dev.etsit.upm.es/portal-estudiantes/static-button-intercontacta
+menu lateral para aplicacion de internacional https://dev.etsit.upm.es/portal-estudiantes/static-button-inter
+
 Se pueden insertar en las aplicaciones mediante las siguientes instrucciones
 
 ### Insertar Menu Lateral en el resto de aplicaciones
@@ -26,7 +31,7 @@ Se pueden insertar en las aplicaciones mediante las siguientes instrucciones
 Ejemplo
 
 ```
-<script src="https://dev.etsit.upm.es/portal-pdi/static-button-inter"></script>
+<script src="https://dev.etsit.upm.es/portal-estudiantes/static-button-inter"></script>
 ```
 
 2º Crear un div con id unico donde poder insertar el menu lateral, intentar insertarlo en el html en el lugar del boton de logout.
