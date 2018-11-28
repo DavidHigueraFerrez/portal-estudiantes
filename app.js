@@ -35,6 +35,9 @@ app.get(contextPath + "static-button-inter", (req, res) => {
 app.get(contextPath + "static-button-intercontacta", (req, res) => {
   res.sendFile('./button-static-intercontacta.js', {root: __dirname});
 });
+app.get(contextPath + "static-button-parking", (req, res) => {
+  res.sendFile('./button-static-parking.js', {root: __dirname});
+});
 app.get(contextPath +"static-button-html", (req, res) => {
   res.sendFile('./button-static.html', {root: __dirname});
 });
